@@ -1,19 +1,13 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Text-Encrypt-Hash",
   "description": "A tool for encrypting/decrypting text",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "icons": {
-    "64": "icons/icon.png"
+    "64": "public/icon.png"
   },
-  "browser_action": {
-    "default_icon": {
-      "64": "icons/icon.png"
-    },
-    "default_popup": "popup/index.html",
+  "action": {
+    "default_popup": "index.html",
     "default_title": "Text Encrypt-Hash"
-  },
-  "options_ui": {
-    "page": "options/index.html"
   }
 }
