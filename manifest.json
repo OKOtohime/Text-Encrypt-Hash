@@ -4,10 +4,19 @@
   "description": "A tool for encrypting/decrypting text",
   "version": "0.1.0",
   "icons": {
-    "64": "public/icon.png"
+    "64": "icon.png"
   },
   "action": {
     "default_popup": "index.html",
     "default_title": "Text Encrypt-Hash"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{8c910306-2e41-454f-b67b-8e2a61300dda}",
+      "strict_min_version": "142.0",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
   }
 }
